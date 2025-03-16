@@ -10,11 +10,13 @@ import {
   NavigationMenuViewport,
 } from "@/components/ui/navigation-menu";
 import TopNav from "./TopNav";
+import HeroNav from "./HeroNav";
 
 export default function Navbar() {
   return (
       <nav>
         <TopNav/>
+        <HeroNav/>
       <NavigationMenu>
         <NavigationMenuList>
           <NavigationMenuItem>

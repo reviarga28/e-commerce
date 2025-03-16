@@ -15,7 +15,7 @@ export default function TopNav() {
             hidden ? "opacity-0 -translate-y-5 pointer-events-none" : "opacity-100"
           }`}
         >
-          <div className="flex justify-center items-center gap-1 lg:gap-82 text-white mx-auto">
+          <div className="flex justify-center items-center md:gap-[20vw] text-white mx-auto">
             <div className="flex gap-2">
               <div>
                 <h1 className="-rotate-3 text-black bg-[#F3DE6D] py-0.5 px-3 text-sm md:text-base lg:text-lg">
@@ -25,9 +25,9 @@ export default function TopNav() {
               <h2 className="text-lg md:text-xl font-semibold">Friday</h2>
             </div>
             <div className="flex justify-center items-center gap-1 text-sm md:text-base">
-              <h1>Up to</h1>
-              <span className="text-xl md:text-3xl text-yellow-300">59%</span>
-              <h2>OFF</h2>
+              <h1 className="text-[13px] sm:text-lg">Up to</h1>
+              <span className="text-[17px] sm:text-3xl text-yellow-300">59%</span>
+              <h2 className="text-[13px] sm:text-lg">OFF</h2>
             </div>
             <div>
               <Buttons
